@@ -49,10 +49,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &kp NUMBER_6  &kp N7     &kp N8     &kp N9            &kp N0             &kp BACKSPACE
-&kp CAPS   &trans        &trans        &trans        &trans        &trans    &trans        &kp EQUAL  &kp MINUS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
-&trans     &trans        &trans        &trans        &trans        &trans    &trans        &trans     &trans     &trans            &trans             &trans
-                                       &trans        &trans        &trans    &trans        &trans     &trans
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &kp NUMBER_6  &kp N7                      &kp N8                   &kp N9                        &kp N0                         &kp BACKSPACE
+&kp CAPS   &trans        &trans        &trans        &trans        &trans    &trans        &ht_tp RIGHT_CONTROL EQUAL  &ht_tp LEFT_SHIFT MINUS  &ht_tp LEFT_ALT LEFT_BRACKET  &ht_tp LEFT_WIN RIGHT_BRACKET  &kp NON_US_BACKSLASH
+&trans     &trans        &trans        &trans        &trans        &trans    &trans        &trans                      &trans                   &trans                        &trans                         &trans
+                                       &trans        &trans        &trans    &trans        &trans                      &trans
             >;
 
             label = "1";
@@ -67,10 +67,10 @@
 
             display-name = "Lower";
             bindings = <
-&trans  &kp F1      &kp F2        &kp F3             &kp F4           &kp F5          &kp F6    &kp F7    &kp F8   &kp F9     &kp F10  &kp DEL
-&trans  &kp F11     &kp F12       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE      &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT  &trans   &trans
-&trans  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1       &bt BT_SEL 2     &bt BT_SEL 3    &trans    &kp HOME  &kp END  &trans     &trans   &trans
-                                  &trans             &trans           &trans          &trans    &trans    &trans
+&trans  &kp F1               &kp F2               &kp F3                           &kp F4                           &kp F5          &kp F6    &kp F7                     &kp F8                       &kp F9                 &kp F10  &kp DEL
+&trans  &ht_tp LEFT_WIN F11  &ht_tp LEFT_ALT F12  &ht_tp LEFT_SHIFT C_VOLUME_DOWN  &ht_tp LEFT_CONTROL C_VOLUME_UP  &kp C_MUTE      &kp LEFT  &ht_tp RIGHT_CONTROL DOWN  &ht_tp RIGHT_SHIFT UP_ARROW  &ht_tp LEFT_ALT RIGHT  &trans   &trans
+&trans  &bt BT_CLR           &bt BT_SEL 0         &bt BT_SEL 1                     &bt BT_SEL 2                     &bt BT_SEL 3    &trans    &kp HOME                   &kp END                      &trans                 &trans   &trans
+                                                  &trans                           &trans                           &trans          &trans    &trans                     &trans
             >;
 
             label = "2";
@@ -78,10 +78,10 @@
 
         shiftados {
             bindings = <
-&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL
-&trans     &trans           &trans       &trans    &trans      &trans         &trans     &kp PLUS       &kp UNDER     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
-&trans     &trans           &trans       &trans    &trans      &trans         &trans     &trans         &trans        &trans                &trans                 &trans
-                                         &trans    &trans      &trans         &trans     &trans         &trans
+&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND              &kp ASTERISK              &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS        &kp DEL
+&trans     &trans           &trans       &trans    &trans      &trans         &trans     &ht_tp RIGHT_CONTROL PLUS  &ht_tp RIGHT_SHIFT UNDER  &ht_tp LEFT_ALT LEFT_BRACE  &ht_tp LEFT_WIN RIGHT_BRACE  &kp PIPE
+&trans     &trans           &trans       &trans    &trans      &trans         &trans     &trans                     &trans                    &trans                      &trans                       &trans
+                                         &trans    &trans      &trans         &trans     &trans                     &trans
             >;
 
             label = "3";
