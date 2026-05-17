@@ -78,7 +78,7 @@
             display-name = "Raise";
             bindings = <
 &kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5    &kp NUMBER_6  &kp N7                                   &kp N8                                &kp N9                                     &kp N0                                      &kp BACKSPACE
-&kp CAPS   &trans        &trans        &trans        &trans        &trans    &trans        &home_row_mod_right RIGHT_CONTROL EQUAL  &home_row_mod_right LEFT_SHIFT MINUS  &home_row_mod_right LEFT_ALT LEFT_BRACKET  &home_row_mod_right LEFT_WIN RIGHT_BRACKET  &kp NON_US_BACKSLASH
+&kp CAPS   &trans        &trans        &trans        &trans        &trans    &trans        &home_row_mod_right RIGHT_CONTROL EQUAL  &home_row_mod_right LEFT_SHIFT MINUS  &home_row_mod_right LEFT_ALT LEFT_BRACKET  &home_row_mod_right LEFT_WIN RIGHT_BRACKET  &kp BACKSLASH
 &trans     &trans        &trans        &trans        &trans        &trans    &trans        &trans                                   &trans                                &trans                                     &trans                                      &trans
                                        &trans        &trans        &trans    &trans        &trans                                   &trans
             >;
